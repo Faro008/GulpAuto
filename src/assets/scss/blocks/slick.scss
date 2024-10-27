@@ -1,0 +1,44 @@
+/*-----container__figure-------------*/
+
+.container__figure{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #333;
+}
+.container__figure__img{
+	display: block;
+	position: relative;
+
+	height: 65px;
+	background-color:lighten(#cccccc,3%);
+	margin-top: -50px;
+}
+@media (max-width:480px){
+	.container__figure__img {
+		display: none;
+	}
+}
+.slick{
+	display: flex;
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 10;
+
+}
+.figure__img{
+	width: 100%;
+	position: relative;
+	object-fit: contain;
+	aspect-ratio: 1/1;
+}
+/*-----container__figure-------------*/
+
+
+
+/*-------------arrow----------------*/
+
+
+/*-------------arrow----------------*/
+

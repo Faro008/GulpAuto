@@ -1,0 +1,33 @@
+.iconc{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: lighten(#1b1b1b,10%);
+	text-align: center;
+	padding-top: 3px;
+}
+.fa-vk:before {
+	color: #2e6ab5;
+}
+.fa-odnoklassniki:before {
+	color: #fb851b;
+}
+.fa-facebook:before {
+   color: #204bde;
+}
+.fa-twitter:before {
+	color: #4bcbf8;
+}
+.fa-instagram:before {
+	color: lighten(#325266,20%);
+}
+.fa-telegram:before {
+	color: #41e8e4;
+}
+.fa-youtube:before {
+   color: #ee1722;
+}
+.iconc:hover i {
+	transform: scale(1.3);
+}
+
